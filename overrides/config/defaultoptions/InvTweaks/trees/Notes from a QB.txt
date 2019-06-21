@@ -1,0 +1,1 @@
+I realize that the readme says you can add custom tree files here. But I wasn't having a lot of success with that. I suspect they might only be merged when the mod first loads. Which means on-the-fly changes like you can with InvTweaksTree.txt aren't possible. So I recommend just using that.

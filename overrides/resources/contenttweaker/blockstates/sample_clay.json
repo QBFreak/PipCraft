@@ -1,0 +1,20 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "contenttweaker:sample",
+    "transform": "forge:default-block",
+    "textures": {
+      "particle": "minecraft:blocks/stone",
+      "all": "minecraft:blocks/clay",
+      "base": "minecraft:blocks/stone"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ]
+  }
+}
