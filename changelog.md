@@ -13,7 +13,7 @@
 - Just Enough Resources
 - Quark
 - Tool Belt
-- Vllage Names
+- Village Names
 
 ## Added
 - Architect
@@ -22,7 +22,7 @@
 - Immersive Posts
 - Little Tiles
 - CreativeCore (dependancy)
-- ModTweaker
+- Mod Tweaker
 - MTLib (dependancy)
 - TechStack's Heavy Machinery Mod
 
