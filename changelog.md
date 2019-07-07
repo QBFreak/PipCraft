@@ -17,6 +17,7 @@
 
 ## Added
 - Architect
+- Engineer's Decor
 - Engineer's Doors
 - Immersive Cables
 - Immersive Posts
@@ -24,6 +25,7 @@
 - CreativeCore (dependancy)
 - Mod Tweaker
 - MTLib (dependancy)
+- Redstone Gauges and Switches
 - TechStack's Heavy Machinery Mod
 
 ## New Features
