@@ -1,4 +1,4 @@
-/* dyed_panes.zs v1.0
+/* minecraft.dyed_panes.zs v1.0
  *  Author:  QBFreak
  *  License: MIT
  *

@@ -1,4 +1,4 @@
-/* chisel-futura.zs v1.0
+/* chisel.futura.zs v1.0
  *  Author:  QBFreak
  *  License: MIT
  *
