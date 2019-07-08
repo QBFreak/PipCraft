@@ -38,4 +38,5 @@
 ## Misc
 - Reduced the pluton size for Cobalt, Ardite, Apatite and Destablized Redstone. They were a bit .... large
 - Increased the pluton size for Hematite and Limonite. Moar iron! Make all teh steels!
-
+- Witches are no longer named by Village Names, and thus no longer spam users with death messages (annoying with mob grinders)
+  - **IMPORTANT:** If you have customized your Village Names config at all, BACK IT UP before upgrading, the upgrade will OVERWRITE IT
