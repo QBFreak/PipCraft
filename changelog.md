@@ -34,3 +34,8 @@
 ## Bug fixes
 - Geolosys Field Manual now shows all Geolosys ores, not just those added by CraftTweeaker
 - JourneyMap's webmap now works for `-x` values!
+
+## Misc
+- Reduced the pluton size for Cobalt, Ardite, Apatite and Destablized Redstone. They were a bit .... large
+- Increased the pluton size for Hematite and Limonite. Moar iron! Make all teh steels!
+
