@@ -1,42 +1,57 @@
-# PipCraft v1.1.0
+# PipCraft v1.1.1
 
 ## Updated
-- AutoRegLib
-- Controlling
-- Cooking for Blockheads
-- Ender IO
-- EnderCore
-- FTB Library
-- FTB Utilities
+- Actually Additions
+- AutoRegLib (dependency)
+- CC-Tweaked (replaced ComputerCraft)
+- CreativeCore (dependency)
+- FTB Library (dependency)
+- FTB Utilities: Backups
 - Geolosys
+- Industrial Foregoing
 - JourneyMap
-- Just Enough Resources
+- LittleTiles
+- McJtyLib (dependency)
 - Quark
-- Tool Belt
+- Redstone Gauges and Switches
+- Refined Storage
+- Tinkers Construct
 - Village Names
+- XNet
+
 
 ## Added
-- Architect
-- Engineer's Decor
-- Engineer's Doors
-- Immersive Cables
-- Immersive Posts
-- Little Tiles
-- CreativeCore (dependancy)
-- Mod Tweaker
-- MTLib (dependancy)
-- Redstone Gauges and Switches
-- TechStack's Heavy Machinery Mod
+- Debarked Logs
+- Extreme Reactors
+- Fancy Fluid Storage
+- ItemZoom
+- Just Enough Calculation
+- LTPhoto
+- More Overlays
+- NBT Edit
+- NBT Peripheral
+- OnlinePictureFrame
+- Plethora
+- Reauth
+- World Utils
+- Zero Core (dependency)
 
 ## New Features
-- In addition to the new mods added, a recipe was added for the Thermal Expansion Fluid Transposer to fill a Heavy Machinery Fuel Can with Diesel or Biodiesel
+- LittleTiles block selection drop-downs now automatically place cursor in filter box (you can start typing immediately without having to click in the box first)
+- Some LittleTiles stuff (LTPhoto, OnlinePictureFrame)
+- Debarked logs for better wood selection when building with LT
+- Extreme Reactors because the Steam Turbines just weren't cutting it and were causing a bit of lag
+- ItemZoom for better block preview before crafting, especially useful for the various LT colored blocks
+- JourneyMap server admin console
+- More Overlays for inventory searching by double-clicking JEI search box
+- A better (if less polished) NBT editor
+- Some CC peripherials
+- Quark added some cool stuff
+- Reauth, so you don't have to restart the whole pack if you get logged out
+- World Utils - some server admin tools
 
 ## Bug fixes
-- Geolosys Field Manual now shows all Geolosys ores, not just those added by CraftTweeaker
-- JourneyMap's webmap now works for `-x` values!
+- Bunch of LT crashes fixed.
 
 ## Misc
-- Reduced the pluton size for Cobalt, Ardite, Apatite and Destablized Redstone. They were a bit .... large
-- Increased the pluton size for Hematite and Limonite. Moar iron! Make all teh steels!
-- Witches are no longer named by Village Names, and thus no longer spam users with death messages (annoying with mob grinders)
-  - **IMPORTANT:** If you have customized your Village Names config at all, BACK IT UP before upgrading, the upgrade will OVERWRITE IT
+- Removed Extreme Reactors steel block/ingot/dust from JEI
