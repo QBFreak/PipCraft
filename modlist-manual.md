@@ -120,4 +120,16 @@
 - [NBT Peripheral (by GKNLMakerTim)](https://www.curseforge.com/minecraft/mc-mods/nbt-peripheral)
 - [NBTEdit (by malte0811)](https://www.curseforge.com/minecraft/mc-mods/nbtedit)
 - [Little Opener (by Alleluid)](https://www.curseforge.com/minecraft/mc-mods/little-opener)
+- [Just Enough Calculation (by Towdium)](https://www.curseforge.com/minecraft/mc-mods/just-enough-calculation)
+- [InGameConfigManager (by CreativeMD)](https://www.curseforge.com/minecraft/mc-mods/ingameconfigmanager)
+- [LagGoggles (by Terminator_NL)](https://www.curseforge.com/minecraft/mc-mods/laggoggles)
+- [Alternating Flux (by AntiBlueQuirk)](https://www.curseforge.com/minecraft/mc-mods/alternating-flux)
+- [Immersive Vehicles (Formerly Transport Simulator) (by don_bruce)](https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator)
+- [Transport Simulator - Official Vehicle Set (by don_bruce)](https://www.curseforge.com/minecraft/mc-mods/transport-simulator-official-vehicle-set)
+- [MTS Seagull's military car pack (by TheOddlySeagull)](https://www.curseforge.com/minecraft/mc-mods/mts-seagulls-military-car-pack)
+- [MTS Seagull's civil car pack (by TheOddlySeagull)](https://www.curseforge.com/minecraft/mc-mods/mts-seagulls-civil-car-pack)
+- [Melvin's Simple Sign pack [MTS/IV] (by MelvinTDM)](https://www.curseforge.com/minecraft/mc-mods/melvins-simple-sign-pack-mts)
+- [MTS seagull's trin parts pack (by TheOddlySeagull)](https://www.curseforge.com/minecraft/mc-mods/mts-seagulls-trin-parts-pack)
+- [Little Opener (by Alleluid)](https://www.curseforge.com/minecraft/mc-mods/little-opener)
+
 

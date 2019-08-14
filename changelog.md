@@ -21,13 +21,21 @@
 
 
 ## Added
+- Alternating Flx
 - Debarked Logs
 - Extreme Reactors
 - Fancy Fluid Storage
+- InGameConfigManager
+- Immersive Vehicles
+  - Seagull's Civil Car Pack
+  - Seagull's Military Car Pack
+  - Seagull's Trin Parts Pack
+  - Melvin's Simple Sign Pack
 - ItemZoom
 - Just Enough Calculation
-- LTPhoto
-- More Overlays
+- LagGoggles
+- LittleOpener
+- ~~LTPhoto~~ Sorry, manual download from Curseforge only.
 - NBT Edit
 - NBT Peripheral
 - OnlinePictureFrame
@@ -38,12 +46,11 @@
 
 ## New Features
 - LittleTiles block selection drop-downs now automatically place cursor in filter box (you can start typing immediately without having to click in the box first)
-- Some LittleTiles stuff (LTPhoto, OnlinePictureFrame)
+- Some LittleTiles stuff (LittleOpener, ~~LTPhoto,~~ OnlinePictureFrame)
 - Debarked logs for better wood selection when building with LT
-- Extreme Reactors because the Steam Turbines just weren't cutting it and were causing a bit of lag
+- Extreme Reactors because the Steam Turbines just weren't cutting it ~~and were causing a bit of lag~~
 - ItemZoom for better block preview before crafting, especially useful for the various LT colored blocks
 - JourneyMap server admin console
-- More Overlays for inventory searching by double-clicking JEI search box
 - A better (if less polished) NBT editor
 - Some CC peripherials
 - Quark added some cool stuff
