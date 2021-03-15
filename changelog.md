@@ -1,4 +1,4 @@
-# PipCraft v1.1.1
+# PipCraft v1.2.0
 
 ## Updated
 - Pretty much everything. Forgot to make a list first. Oops.
