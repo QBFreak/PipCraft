@@ -1,64 +1,36 @@
 # PipCraft v1.1.1
 
 ## Updated
-- Actually Additions
-- AutoRegLib (dependency)
-- CC-Tweaked (replaced ComputerCraft)
-- CreativeCore (dependency)
-- FTB Library (dependency)
-- FTB Utilities: Backups
-- Geolosys
-- Industrial Foregoing
-- JourneyMap
-- LittleTiles
-- McJtyLib (dependency)
-- Quark
-- Redstone Gauges and Switches
-- Refined Storage
-- Tinkers Construct
-- Village Names
-- XNet
+- Pretty much everything. Forgot to make a list first. Oops.
 
 
 ## Added
-- Alternating Flx
-- Debarked Logs
-- Extreme Reactors
-- Fancy Fluid Storage
-- InGameConfigManager
-- Immersive Vehicles
-  - Seagull's Civil Car Pack
-  - Seagull's Military Car Pack
-  - Seagull's Trin Parts Pack
-  - Melvin's Simple Sign Pack
-- ItemZoom
-- Just Enough Calculation
-- LagGoggles
-- LittleOpener
-- ~~LTPhoto~~ Sorry, manual download from Curseforge only.
-- NBT Edit
-- NBT Peripheral
-- OnlinePictureFrame
-- Plethora
-- Reauth
-- World Utils
-- Zero Core (dependency)
+- Botania
+- RailCraft
+
+## Removed
+- All the big transportation stuff
+  - Immersive Railroading
+  - Immersive Vehicles (Formerly Transport Simulator)
+  - MTS Seagull's civil car pack
+  - MTS seagull's trin parts pack
+  - Melvin's Simple Sign pack MTS/IV]
+  - MTS Seagull's military car pack
+  - TechStack's Heavy Machinery Mod
+  - Transport Simulator - Official Vehicle Set
+  - Track API
+- InGameConfigurationManager - No longer needed by LittleTiles and incompatible with the version of CreativeCore that is required by LittleTiles
 
 ## New Features
-- LittleTiles block selection drop-downs now automatically place cursor in filter box (you can start typing immediately without having to click in the box first)
-- Some LittleTiles stuff (LittleOpener, ~~LTPhoto,~~ OnlinePictureFrame)
-- Debarked logs for better wood selection when building with LT
-- Extreme Reactors because the Steam Turbines just weren't cutting it ~~and were causing a bit of lag~~
-- ItemZoom for better block preview before crafting, especially useful for the various LT colored blocks
-- JourneyMap server admin console
-- A better (if less polished) NBT editor
-- Some CC peripherials
-- Quark added some cool stuff
-- Reauth, so you don't have to restart the whole pack if you get logged out
-- World Utils - some server admin tools
+- Botania!
+- Railcraft!
+- No more oversized, over-modeled transportation stuff. Sorry!
+- Fortune enchantment now works on Geolosys ores, yay!
 
 ## Bug fixes
-- Bunch of LT crashes fixed.
+- Probably quite a few, but since I forgot to even track what updated...
 
 ## Misc
-- Removed Extreme Reactors steel block/ingot/dust from JEI
+- VillageName config updated to new version, fixed to remove witch names (to reduce spam from mob grinders)
+- Generated pet names now randomly include `Pip` in any or all segments of the generated name, cause Pip
+- Immersive Engineering has an option for fancy blueprint display on the workbench, it is disabled by default. Enable it with `B:disableFancyBlueprints=true`
