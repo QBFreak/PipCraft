@@ -48,15 +48,15 @@ import crafttweaker.block.IBlockState;
 scripts.logger.crt.logInfo("Adding ores to Geolosys");
 
 // Cobalt and Ardite are now available in the overworld instead of the Nether
-mods.geolosys.ores.addOre(<blockstate:tconstruct:ore:type=cobalt>, <blockstate:contenttweaker:sample_cobalt>, 8, 78, 64, 8, 1, [-1, 1]);
-mods.geolosys.ores.addOre(<blockstate:tconstruct:ore:type=ardite>, <blockstate:contenttweaker:sample_ardite>, 8, 78, 64, 8, 1, [-1, 1]);
+mods.geolosys.ores.addOre(<blockstate:tconstruct:ore:type=cobalt>, <blockstate:contenttweaker:sample_cobalt>, 8, 78, 24, 5, 1, [-1, 1]);
+mods.geolosys.ores.addOre(<blockstate:tconstruct:ore:type=ardite>, <blockstate:contenttweaker:sample_ardite>, 8, 78, 24, 3, 1, [-1, 1]);
 
 // We add clay as an ore instead of a stone so that we get surface samples
-mods.geolosys.ores.addOre(<blockstate:minecraft:clay>, <blockstate:contenttweaker:sample_clay>, 2, 70, 160, 10, 1, [-1, 1]);
+mods.geolosys.ores.addOre(<blockstate:minecraft:clay>, <blockstate:contenttweaker:sample_clay>, 2, 70, 80, 8, 1, [-1, 1]);
 
 // Some mod ores that need surface samples
-mods.geolosys.ores.addOre(<blockstate:forestry:resources:resource=apatite>, <blockstate:contenttweaker:sample_apatite>, 8, 78, 64, 8, 1, [-1, 1]);
-mods.geolosys.ores.addOre(<blockstate:thermalfoundation:ore_fluid:type=redstone>, <blockstate:contenttweaker:sample_destabilized_redstone>, 8, 78, 64, 8, 1, [-1, 1]);
+mods.geolosys.ores.addOre(<blockstate:forestry:resources:resource=apatite>, <blockstate:contenttweaker:sample_apatite>, 8, 78, 24, 5, 1, [-1, 1]);
+mods.geolosys.ores.addOre(<blockstate:thermalfoundation:ore_fluid:type=redstone>, <blockstate:contenttweaker:sample_destabilized_redstone>, 8, 78, 20, 3, 1, [-1, 1]);
 
 
 /**
