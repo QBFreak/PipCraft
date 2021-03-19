@@ -5,24 +5,45 @@
  *  Sort out any oredict discrepancies with Geolosys and other mods in the pack
  */
 
-// DISABLE THIS SCRIPT - Pack dev, this script is a later TODO
-#norun
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 scripts.logger.crt.logInfo("Sorting out Oredict entries for mod ores");
 
-// Forge, or somebody, sets Vanilla coal to oreCoal, but Geolosys sets it's own coal to oreBlockCoal
-// Here we adjust both
+function registerAllItemsInAllDicts(items as IItemStack[], dicts as IOreDictEntry[]) {
+    for dict in dicts {
+        for item in items {
+            dict.add(item);
+        }
+    }
+}
 
-val oreCoal = <ore:oreCoal>;
-oreCoal.add(<minecraft:coal_ore>);
-oreCoal.add(<geolosys:ore_vanilla>);
+var coalOres as IItemStack[] = [
+    <minecraft:coal_ore>,
+    <geolosys:ore_vanilla>
+];
 
-val oreBlockCoal = <ore:oreBlockCoal>;
-oreBlockCoal.add(<minecraft:coal_ore>);
-oreBlockCoal.add(<geolosys:ore_vanilla>);
+var coalOreOreDictEntries as IOreDictEntry[] = [
+    <ore:oreCoal>,
+    <ore:oreBlockCoal>,
+    <ore:depositOreCoal>
+];
 
-val depositOreCoal = <ore:depositOreCoal>;
-depositOreCoal.add(<minecraft:coal_ore>);
-depositOreCoal.add(<geolosys:ore_vanilla>);
+registerAllItemsInAllDicts(coalOres, coalOreOreDictEntries);
 
+
+var cokeBlocks as IItemStack[] = [
+    <thermalfoundation:storage_resource:1>,
+    <railcraft:generic:6>,
+    <immersiveengineering:stone_decoration:3>,
+    <chisel:block_coal_coke2:1>
+];
+
+var cokeBlockOreDictEntries as IOreDictEntry[] = [
+    <ore:blockFuelCoke>,
+    <ore:blockCoke>,
+    <ore:blockCoalCoke>
+];
+
+registerAllItemsInAllDicts(cokeBlocks, cokeBlockOreDictEntries);
 
