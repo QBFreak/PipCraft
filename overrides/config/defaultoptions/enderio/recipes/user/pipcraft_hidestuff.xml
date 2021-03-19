@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!-- 
+
+More information on the syntax can be found in the recipes.xsd file. An
+XML editor will display that as tooltips when editing this file.
+
+ -->
+
+  <recipe name="Item Hiding, Base">
+    <hiding>
+
+      <item name="enderio:item_material:9" hide="true" />   <!-- gearWood -->
+      <item name="enderio:item_material:10" hide="true" />  <!-- gearStone -->
+      <item name="enderio:block_exit_rail:0" hide="true" />
+      <item name="enderio:item_material:23" hide="true" />  <!-- dustCoal -->
+      <item name="enderio:item_material:29" hide="true" />  <!-- dustObsidian -->
+
+    </hiding>
+  </recipe>
+
+ </enderio:recipes>
