@@ -1,36 +1,42 @@
-# PipCraft v1.2.0
+# PipCraft v1.2.1
+
+Rebuilt from all new mod configs to mimic PipCraft 1.1.1, then improved.
+v1.2.0 had a number of issues related to legacy configs.
 
 ## Updated
-- Pretty much everything. Forgot to make a list first. Oops.
+- No mods updated from pack version 1.2.0
 
 
 ## Added
-- Botania
-- RailCraft
+- No mods added from pack version 1.2.0
 
 ## Removed
-- All the big transportation stuff
-  - Immersive Railroading
-  - Immersive Vehicles (Formerly Transport Simulator)
-  - MTS Seagull's civil car pack
-  - MTS seagull's trin parts pack
-  - Melvin's Simple Sign pack MTS/IV]
-  - MTS Seagull's military car pack
-  - TechStack's Heavy Machinery Mod
-  - Transport Simulator - Official Vehicle Set
-  - Track API
-- InGameConfigurationManager - No longer needed by LittleTiles and incompatible with the version of CreativeCore that is required by LittleTiles
+- Alternating Flux (dependancy, no longer needed)
+- CraftStudio API (dependancy, no longer needed)
+- TESLA (dependancy, no longer needed)
 
 ## New Features
-- Botania!
-- Railcraft!
-- No more oversized, over-modeled transportation stuff. Sorry!
-- Fortune enchantment now works on Geolosys ores, yay!
+- Rebalanced Geolosys ore spawning a bit
+  - Hematite (iron) is more common than it used to be, on par with coal.
+  - Hematite plutons are much larger than they used to be
+  - Apatite is both much less common and smaller
+  - Ardite is both much less common and smaller
+  - Cobalt is both much less common and smaller
+  - Destabilized Redstone is both much less common and smaller
+- Beds can now be redyed!
+  - Unfortunately this breaks achievements for dying beds, oops
+- Including the resource pack by default now
 
 ## Bug fixes
-- Probably quite a few, but since I forgot to even track what updated...
+- Mouse no longer clipped to tool-belt radial menu, it wasn't working properly
 
 ## Misc
-- VillageName config updated to new version, fixed to remove witch names (to reduce spam from mob grinders)
-- Generated pet names now randomly include `Pip` in any or all segments of the generated name, cause Pip
-- Immersive Engineering has an option for fancy blueprint display on the workbench, it is disabled by default. Enable it with `B:disableFancyBlueprints=true`
+- Removed a lot of duplicate recipies from JEI (overlapping items from multiple mods)
+- Removed duplicate ores from worldgen (overlapping ores from multiple mods)
+- Disabled Thermal bows, shears, tools (using Tinkers for these)
+- Disabled vanilla recipe book
+- Railcraft no longer spawns (metal) ores
+- JEI no longer cluttered with endless permutations of Tinker's parts!
+- Disabled JourneyMap version checking
+- Disabled version checking for all mods that use Forge's version checking
+
