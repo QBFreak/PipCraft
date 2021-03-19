@@ -1,6 +1,5 @@
 {
-	"ores": [
-		{
+	"ores": [{
 			"blocks": [
 				"geolosys:ore_vanilla:0",
 				100
@@ -12,7 +11,7 @@
 			"yMin": 8,
 			"yMax": 78,
 			"chance": 8,
-			"size": 256,
+			"size": 64,
 			"dimBlacklist": [
 				-1,
 				1
@@ -31,7 +30,7 @@
 			"yMin": 5,
 			"yMax": 12,
 			"chance": 7,
-			"size": 160,
+			"size": 40,
 			"dimBlacklist": [
 				-1,
 				1
@@ -50,7 +49,7 @@
 			"yMin": 5,
 			"yMax": 30,
 			"chance": 4,
-			"size": 160,
+			"size": 40,
 			"dimBlacklist": [
 				-1,
 				1
@@ -69,7 +68,7 @@
 			"yMin": 10,
 			"yMax": 24,
 			"chance": 5,
-			"size": 128,
+			"size": 32,
 			"dimBlacklist": [
 				-1,
 				1
@@ -94,7 +93,7 @@
 			"yMin": 6,
 			"yMax": 29,
 			"chance": 6,
-			"size": 160,
+			"size": 40,
 			"dimBlacklist": [
 				-1,
 				1
@@ -113,7 +112,7 @@
 			"yMin": 2,
 			"yMax": 15,
 			"chance": 3,
-			"size": 80,
+			"size": 20,
 			"dimBlacklist": [
 				-1,
 				1
@@ -132,7 +131,7 @@
 			"yMin": 4,
 			"yMax": 32,
 			"chance": 3,
-			"size": 64,
+			"size": 16,
 			"dimBlacklist": [
 				-1,
 				1
@@ -159,8 +158,8 @@
 			],
 			"yMin": 32,
 			"yMax": 60,
-			"chance": 6,
-			"size": 384,
+			"chance": 8,
+			"size": 128,
 			"dimBlacklist": [
 				-1,
 				1
@@ -179,7 +178,7 @@
 			"yMin": 6,
 			"yMax": 32,
 			"chance": 4,
-			"size": 320,
+			"size": 80,
 			"dimBlacklist": [
 				-1,
 				1
@@ -209,7 +208,7 @@
 			"yMin": 12,
 			"yMax": 44,
 			"chance": 4,
-			"size": 320,
+			"size": 80,
 			"dimBlacklist": [
 				-1,
 				1
@@ -228,7 +227,7 @@
 			"yMin": 44,
 			"yMax": 68,
 			"chance": 6,
-			"size": 96,
+			"size": 24,
 			"dimBlacklist": [
 				-1,
 				1
@@ -250,21 +249,19 @@
 			],
 			"samples": [
 				"geolosys:ore_sample:5",
-				90
+				100
 			],
 			"yMin": 8,
 			"yMax": 43,
 			"chance": 2,
-			"size": 320,
+			"size": 80,
 			"dimBlacklist": [
 				-1,
 				1
 			],
 			"density": 1.0,
 			"biomes": [
-				"minecraft:ocean",
-				"minecraft:frozen_ocean",
-				"minecraft:deep_ocean"
+				"minecraft:river"
 			],
 			"isWhitelist": true
 		},
@@ -280,7 +277,7 @@
 			"yMin": 16,
 			"yMax": 50,
 			"chance": 6,
-			"size": 288,
+			"size": 72,
 			"dimBlacklist": [
 				-1,
 				1
@@ -306,7 +303,7 @@
 			"yMin": 45,
 			"yMax": 70,
 			"chance": 4,
-			"size": 256,
+			"size": 64,
 			"dimBlacklist": [
 				-1,
 				1
@@ -338,7 +335,7 @@
 			"yMin": 3,
 			"yMax": 25,
 			"chance": 4,
-			"size": 128,
+			"size": 32,
 			"dimBlacklist": [
 				-1,
 				1
@@ -368,7 +365,7 @@
 			"yMin": 8,
 			"yMax": 33,
 			"chance": 4,
-			"size": 192,
+			"size": 48,
 			"dimBlacklist": [
 				-1,
 				1
@@ -396,7 +393,7 @@
 			"yMin": 37,
 			"yMax": 46,
 			"chance": 5,
-			"size": 96,
+			"size": 24,
 			"dimBlacklist": [
 				-1,
 				1
@@ -404,8 +401,7 @@
 			"density": 1.0
 		}
 	],
-	"stones": [
-		{
+	"stones": [{
 			"block": "minecraft:stone:1",
 			"size": 40,
 			"chance": 10,
@@ -414,8 +410,7 @@
 			"dimBlacklist": [
 				-1,
 				1
-			],
-			"density": 1.0
+			]
 		},
 		{
 			"block": "minecraft:stone:3",
@@ -426,8 +421,7 @@
 			"dimBlacklist": [
 				-1,
 				1
-			],
-			"density": 1.0
+			]
 		},
 		{
 			"block": "minecraft:stone:5",
@@ -438,8 +432,7 @@
 			"dimBlacklist": [
 				-1,
 				1
-			],
-			"density": 1.0
+			]
 		}
 	]
 }
